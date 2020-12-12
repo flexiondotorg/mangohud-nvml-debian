@@ -1,4 +1,4 @@
-mangohud (0.6.1-1~focal1.3) focal; urgency=medium
+mangohud (0.6.1nvml-1~focal1.3) focal; urgency=medium
 
   * Backport for Focal.
   * debian/control:
