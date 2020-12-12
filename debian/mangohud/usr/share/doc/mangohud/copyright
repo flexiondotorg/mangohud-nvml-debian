@@ -1,0 +1,106 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: MangoHud
+Upstream-Contact: flightlessmango <https://github.com/flightlessmango>
+Source: https://github.com/flightlessmango/MangoHud
+
+Files: *
+Copyright: 2020 flightlessmango <https://github.com/flightlessmango>
+License: MIT
+
+Files: bin/gen_enum_to_str.py
+       include/vulkan/vk_util.h
+Copyright: 2017 Intel Corporation
+License: MIT
+
+Files: include/elfhacks.h
+       src/elfhacks.cpp
+       src/real_dlsym.cpp
+Copyright: 2007-2008 Pyry Haulos <pyry.haulos@gmail.com>
+License: Zlib
+
+Files: include/KHR/khrplatform.h
+Copyright: 2008-2018 The Khronos Group Inc.
+License: MIT
+
+Files: src/overlay.cpp
+       src/mesa/c11_compat.h
+       src/mesa/util/os_socket.c
+       src/mesa/util/os_socket.h
+Copyright: 2019 Intel Corporation
+License: MIT
+
+Files: src/mesa/c99_compat.h
+Copyright: 2007-2013 VMware, Inc.
+License: MIT
+
+Files: src/mesa/no_extern_c.h
+Copyright: 2014 VMware, Inc.
+License: MIT
+
+Files: src/mesa/util/detect_os.h
+Copyright: 2008 VMware, Inc.
+License: MIT
+
+Files: src/mesa/util/macros.h
+Copyright: 2014 Intel Corporation
+License: MIT
+
+Files: src/mesa/util/os_time.c
+       src/mesa/util/os_time.h
+Copyright: 2008-2010 VMware, Inc.
+License: MIT
+
+Files: subprojects/dearimgui/*
+Copyright: 2014-2020 Omar Cornut <omar@miracleworld.net>
+License: MIT
+
+Files: subprojects/dearimgui/imgui_draw.cpp
+Copyright: 2014-2020 Omar Cornut <omar@miracleworld.net>
+           2004, 2005 Tristan Grimmer
+License: MIT
+
+Files: subprojects/dearimgui/imstb_rectpack.h
+       subprojects/dearimgui/imstb_textedit.h
+       subprojects/dearimgui/imstb_truetype.h
+Copyright: 2017 Sean Barrett
+License: MIT
+
+Files: debian/*
+Copyright: 2020 Stephan Lachnit <stephanlachnit@protonmail.com>
+License: MIT
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty. In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.

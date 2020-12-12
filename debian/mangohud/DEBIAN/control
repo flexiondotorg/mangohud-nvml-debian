@@ -1,0 +1,15 @@
+Package: mangohud
+Version: 0.6.1-1~focal1.3
+Architecture: amd64
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 12
+Suggests: libxnvctrl0
+Section: misc
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/flightlessmango/MangoHud
+Description: Vulkan/OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
+ A modification of the Mesa Vulkan overlay, including GUI improvements with HUD
+ configuration, temperature reporting, and logging capabilities. Includes a
+ script (mangohud) to start it on any OpenGL or Vulkan application.
+ To get data for Nvidia GPUs, you need to install libxnvctrl0.

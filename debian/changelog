@@ -1,0 +1,18 @@
+mangohud (0.6.1-1~focal1.3) focal; urgency=medium
+
+  * Backport for Focal.
+  * debian/control:
+    + Drop debhelper-compat to 12.
+    + Add libnvidia-ml-dev
+  * debian/rules:
+    + Add -Dwith_nvml=enabled
+  * debian/watch:
+    + Use the NVML enabled variant of the upstream release.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Sat, 12 Dec 2020 10:58:44 +0000
+
+mangohud (0.6.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #954844)
+
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Sun, 29 Nov 2020 20:52:47 +0100
